@@ -43,7 +43,7 @@ const BOSS={id:'boss',type:'input',title:'Hành tinh cần 3 000 dm³ năng lư�
 /* NGÂN HÀNG ĐỀ: Mỗi lần bắt đầu chọn 4 câu cho mỗi màn và tạo số liệu mới. */
 const EXAM_VERSION = '2026-10-v2';
 // GIÁO VIÊN: Dán URL /exec từ Google Apps Script vào bên dưới; để trống nếu chỉ dùng offline.
-const RESULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxaubYQXQUjRtb4TV_BDFvXZMUIfR1_sI4OYDkcaXVw5PNN1kerNtfxxavmQFZe_MVz2g/exec';
+const RESULT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw43QV1gd_TbGl4TKFBiHpcQyR1FY5QiJp9is1s3iwm1CwSiZXmFtCwoTCzqzCRhcJIqw/exec';
 const take = a => a[Math.floor(Math.random()*a.length)];
 const mix = xs => {const a=[...xs];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 const fmtNum = n => Number(n.toFixed(6)).toLocaleString('vi-VN', {maximumFractionDigits:6});
